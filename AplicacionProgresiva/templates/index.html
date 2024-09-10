@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Aplicación Web Progresiva</title>
+</head>
+<body>
+    <h1>Aplicación Web Progresiva</h1>
+    <h2>Registro de Alumnos Inscritos en la Universidad</h2>
+    
+    <!-- Formulario estilizado para introducir dos datos -->
+    <form id="dataForm" class="form-container">
+        <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="career">Carrera que cursas:</label>
+            <input type="text" id="career" name="career" required>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+    </form>
+
+    <!-- Contenedor para mostrar los datos -->
+    <div id="data" style="margin-top: 20px;"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>
